@@ -14,9 +14,15 @@
       location = "group:Services/Services.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Networking/Networking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Data/Data.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Presentation/Presentation.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/warrdadlani/Projects/yourline-ios/yourline-ios/YourLine.xcodeproj">
+      location = "group:YourLine/YourLine.xcodeproj">
    </FileRef>
 </Workspace>

@@ -13,7 +13,6 @@ def ui_pods
   pod "ViewAnimator"
   pod 'NVActivityIndicatorView'
   pod 'SkeletonView'
-  pod 'SnapKit', '~> 5.6.0'
 end
 
 def shared_pods
@@ -24,11 +23,8 @@ target 'YourLine' do
   use_frameworks!
 
   # Pods for YourLine
-  pod 'SwiftDate', '~> 5.0'
-  pod 'KeychainAccess'
-  pod 'SwifterSwift'
   pod 'SnapKit', '~> 5.6.0'
-  pod 'IQKeyboardManager'
+
   ui_pods
 
   target 'YourLineTests' do
@@ -96,12 +92,6 @@ target 'Utility' do
   inherit! :search_paths
   
   use_frameworks!
-  
-  pod 'SwiftDate', '~> 5.0'
-  pod 'KeychainAccess'
-  pod 'SwifterSwift'
-  pod 'SnapKit', '~> 5.6.0'
-  pod 'IQKeyboardManager'
 
   inhibit_all_warnings!
 

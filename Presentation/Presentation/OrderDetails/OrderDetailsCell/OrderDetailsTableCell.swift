@@ -7,7 +7,7 @@
 
 import UIKit
 import Resources
-import SnapKit
+import Utility
 
 public class OrderDetailsTableCell: UITableViewCell {
 

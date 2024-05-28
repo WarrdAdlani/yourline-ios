@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		337F80CBADB2D52636940D35 /* Pods_PresentationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8822F8117B16B13AEB3B4E /* Pods_PresentationTests.framework */; };
-		F3132C0A28E0663900FA6A8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3132C0928E0663900FA6A8E /* SnapKit.framework */; };
+		F30A4D9D2C060FB8008B5E6C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4D9C2C060FB8008B5E6C /* SnapKit */; };
+		F30A4D9F2C060FB8008B5E6C /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4D9E2C060FB8008B5E6C /* SkeletonView */; };
+		F30A4DA12C060FB8008B5E6C /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4DA02C060FB8008B5E6C /* SideMenu */; };
+		F30A4DA32C060FB8008B5E6C /* Instructions in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4DA22C060FB8008B5E6C /* Instructions */; };
+		F30A4DA52C060FB8008B5E6C /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4DA42C060FB8008B5E6C /* NVActivityIndicatorView */; };
+		F30A4DA72C060FB8008B5E6C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F30A4DA62C060FB8008B5E6C /* SDWebImage */; };
 		F36CD71F28E04B110017C17A /* OrderDetailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CD71D28E04B110017C17A /* OrderDetailsTableCell.swift */; };
 		F36CD72028E04B110017C17A /* OrderDetailsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36CD71E28E04B110017C17A /* OrderDetailsTableCell.xib */; };
 		F36CD72228E04EE90017C17A /* OrderDetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CD72128E04EE90017C17A /* OrderDetailItemView.swift */; };
@@ -17,12 +21,6 @@
 		F38E611C28C49A0700D28BCD /* ImageTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38E611A28C49A0700D28BCD /* ImageTitleCell.swift */; };
 		F3A361962832BCAA00690696 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A361952832BCAA00690696 /* TableView.storyboard */; };
 		F3A362152832CA9100690696 /* Resources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A362142832CA9100690696 /* Resources.framework */; };
-		F3CAF18428550F7100E61B8A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF18328550F7100E61B8A /* SDWebImage.framework */; };
-		F3CAF18C28550F7D00E61B8A /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF18B28550F7D00E61B8A /* SideMenu.framework */; };
-		F3CAF18F28550F8100E61B8A /* ViewAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF18E28550F8100E61B8A /* ViewAnimator.framework */; };
-		F3CAF19228550F8500E61B8A /* SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF19128550F8500E61B8A /* SkeletonView.framework */; };
-		F3CAF19528550F8D00E61B8A /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF19428550F8D00E61B8A /* NVActivityIndicatorView.framework */; };
-		F3CAF1982855103900E61B8A /* Instructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CAF1972855103900E61B8A /* Instructions.framework */; };
 		F3D1A51928C26936000D4677 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D1A51828C26935000D4677 /* UITextField+Extensions.swift */; };
 		F3D8666F2815920600E574B0 /* FormTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D8666E2815920600E574B0 /* FormTableDelegate.swift */; };
 		F3D866712815920F00E574B0 /* FormTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D866702815920F00E574B0 /* FormTableDataSource.swift */; };
@@ -58,7 +56,6 @@
 		F3F499E4281588D800BD71CE /* Presentation.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F499D6281588D700BD71CE /* Presentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3F499F42815897400BD71CE /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F499F32815897400BD71CE /* FormViewController.swift */; };
 		F3F499F62815899E00BD71CE /* FormView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F499F52815899E00BD71CE /* FormView.storyboard */; };
-		F5EE2D09584C5FDDE82D4758 /* Pods_Presentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4A31ACFA387897F851980E /* Pods_Presentation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,12 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C84E6FFA015DBBBD946BDF4 /* Pods-PresentationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentationTests.debug.xcconfig"; path = "Target Support Files/Pods-PresentationTests/Pods-PresentationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		63EA3035D627622924B6F3FA /* Pods-PresentationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentationTests.release.xcconfig"; path = "Target Support Files/Pods-PresentationTests/Pods-PresentationTests.release.xcconfig"; sourceTree = "<group>"; };
-		7A4A31ACFA387897F851980E /* Pods_Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86303D071A1EEF945C357AF7 /* Pods-Presentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presentation.release.xcconfig"; path = "Target Support Files/Pods-Presentation/Pods-Presentation.release.xcconfig"; sourceTree = "<group>"; };
-		9E8822F8117B16B13AEB3B4E /* Pods_PresentationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C43AD043FF747B9CCAF1033F /* Pods-Presentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presentation.debug.xcconfig"; path = "Target Support Files/Pods-Presentation/Pods-Presentation.debug.xcconfig"; sourceTree = "<group>"; };
 		F3132C0928E0663900FA6A8E /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36CD71D28E04B110017C17A /* OrderDetailsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsTableCell.swift; sourceTree = "<group>"; };
 		F36CD71E28E04B110017C17A /* OrderDetailsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailsTableCell.xib; sourceTree = "<group>"; };
@@ -137,18 +128,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3CAF19228550F8500E61B8A /* SkeletonView.framework in Frameworks */,
-				F3CAF18F28550F8100E61B8A /* ViewAnimator.framework in Frameworks */,
-				F3CAF18C28550F7D00E61B8A /* SideMenu.framework in Frameworks */,
-				F3132C0A28E0663900FA6A8E /* SnapKit.framework in Frameworks */,
 				F3D866F32816A5E200E574B0 /* Domain.framework in Frameworks */,
+				F30A4DA32C060FB8008B5E6C /* Instructions in Frameworks */,
+				F30A4DA52C060FB8008B5E6C /* NVActivityIndicatorView in Frameworks */,
 				F3D867332816AF5700E574B0 /* Services.framework in Frameworks */,
+				F30A4DA72C060FB8008B5E6C /* SDWebImage in Frameworks */,
 				F3A362152832CA9100690696 /* Resources.framework in Frameworks */,
-				F3CAF19528550F8D00E61B8A /* NVActivityIndicatorView.framework in Frameworks */,
-				F3CAF1982855103900E61B8A /* Instructions.framework in Frameworks */,
 				F3D866F72816A5E600E574B0 /* Utility.framework in Frameworks */,
-				F3CAF18428550F7100E61B8A /* SDWebImage.framework in Frameworks */,
-				F5EE2D09584C5FDDE82D4758 /* Pods_Presentation.framework in Frameworks */,
+				F30A4DA12C060FB8008B5E6C /* SideMenu in Frameworks */,
+				F30A4D9F2C060FB8008B5E6C /* SkeletonView in Frameworks */,
+				F30A4D9D2C060FB8008B5E6C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,25 +146,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3F499DE281588D800BD71CE /* Presentation.framework in Frameworks */,
-				337F80CBADB2D52636940D35 /* Pods_PresentationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A283D94B3AD2C5525748E057 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C43AD043FF747B9CCAF1033F /* Pods-Presentation.debug.xcconfig */,
-				86303D071A1EEF945C357AF7 /* Pods-Presentation.release.xcconfig */,
-				4C84E6FFA015DBBBD946BDF4 /* Pods-PresentationTests.debug.xcconfig */,
-				63EA3035D627622924B6F3FA /* Pods-PresentationTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../YourLine/Pods;
-			sourceTree = "<group>";
-		};
 		F36CD71B28E04AF20017C17A /* OrderDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,8 +297,6 @@
 				F3D867322816AF5700E574B0 /* Services.framework */,
 				F3D866F62816A5E600E574B0 /* Utility.framework */,
 				F3D866F22816A5E200E574B0 /* Domain.framework */,
-				7A4A31ACFA387897F851980E /* Pods_Presentation.framework */,
-				9E8822F8117B16B13AEB3B4E /* Pods_PresentationTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -344,7 +318,6 @@
 				F3F499E1281588D800BD71CE /* PresentationTests */,
 				F3F499D4281588D700BD71CE /* Products */,
 				F3D866F12816A5E200E574B0 /* Frameworks */,
-				A283D94B3AD2C5525748E057 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -407,7 +380,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F499E7281588D800BD71CE /* Build configuration list for PBXNativeTarget "Presentation" */;
 			buildPhases = (
-				CECD8FB0D12BC5447F8C3896 /* [CP] Check Pods Manifest.lock */,
 				F3F499CE281588D700BD71CE /* Headers */,
 				F3F499CF281588D700BD71CE /* Sources */,
 				F3F499D0281588D700BD71CE /* Frameworks */,
@@ -418,6 +390,14 @@
 			dependencies = (
 			);
 			name = Presentation;
+			packageProductDependencies = (
+				F30A4D9C2C060FB8008B5E6C /* SnapKit */,
+				F30A4D9E2C060FB8008B5E6C /* SkeletonView */,
+				F30A4DA02C060FB8008B5E6C /* SideMenu */,
+				F30A4DA22C060FB8008B5E6C /* Instructions */,
+				F30A4DA42C060FB8008B5E6C /* NVActivityIndicatorView */,
+				F30A4DA62C060FB8008B5E6C /* SDWebImage */,
+			);
 			productName = Presentation;
 			productReference = F3F499D3281588D700BD71CE /* Presentation.framework */;
 			productType = "com.apple.product-type.framework";
@@ -469,6 +449,14 @@
 				Base,
 			);
 			mainGroup = F3F499C9281588D700BD71CE;
+			packageReferences = (
+				F30A4D962C060D6F008B5E6C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F30A4D972C060DC2008B5E6C /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				F30A4D982C060DEA008B5E6C /* XCRemoteSwiftPackageReference "SideMenu" */,
+				F30A4D992C060E25008B5E6C /* XCRemoteSwiftPackageReference "Instructions" */,
+				F30A4D9A2C060E44008B5E6C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+				F30A4D9B2C060E64008B5E6C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = F3F499D4281588D700BD71CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -541,28 +529,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PresentationTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CECD8FB0D12BC5447F8C3896 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Presentation-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -745,7 +711,6 @@
 		};
 		F3F499E8281588D800BD71CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C43AD043FF747B9CCAF1033F /* Pods-Presentation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -775,7 +740,6 @@
 		};
 		F3F499E9281588D800BD71CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86303D071A1EEF945C357AF7 /* Pods-Presentation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -805,7 +769,6 @@
 		};
 		F3F499EB281588D800BD71CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C84E6FFA015DBBBD946BDF4 /* Pods-PresentationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -823,7 +786,6 @@
 		};
 		F3F499EC281588D800BD71CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63EA3035D627622924B6F3FA /* Pods-PresentationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -870,6 +832,90 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F30A4D962C060D6F008B5E6C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		F30A4D972C060DC2008B5E6C /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.31.0;
+			};
+		};
+		F30A4D982C060DEA008B5E6C /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		F30A4D992C060E25008B5E6C /* XCRemoteSwiftPackageReference "Instructions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ephread/Instructions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		F30A4D9A2C060E44008B5E6C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		F30A4D9B2C060E64008B5E6C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F30A4D9C2C060FB8008B5E6C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D962C060D6F008B5E6C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F30A4D9E2C060FB8008B5E6C /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D972C060DC2008B5E6C /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		F30A4DA02C060FB8008B5E6C /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D982C060DEA008B5E6C /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		F30A4DA22C060FB8008B5E6C /* Instructions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D992C060E25008B5E6C /* XCRemoteSwiftPackageReference "Instructions" */;
+			productName = Instructions;
+		};
+		F30A4DA42C060FB8008B5E6C /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D9A2C060E44008B5E6C /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		F30A4DA62C060FB8008B5E6C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F30A4D9B2C060E64008B5E6C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F3F499CA281588D700BD71CE /* Project object */;
 }
