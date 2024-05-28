@@ -11,7 +11,14 @@ import Utility
 class SignUpViewController: UIViewController {
 
     @IBOutlet weak var containerView: UIView!
-    @IBOutlet var pageViews: [UILabel]!
+    @IBOutlet var pageViews: [UILabel]! {
+        didSet {
+            for page in pageViews {
+                page.layer.cornerRadius = page.frame.width/2
+                page.clipsToBounds = true
+            }
+        }
+    }
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var nextButton: UIButton!
     
