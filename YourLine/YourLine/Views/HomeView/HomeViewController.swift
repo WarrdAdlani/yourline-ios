@@ -204,6 +204,11 @@ class HomeViewController: UIViewController, HomeViewing {
         
         UIView.animate(withDuration: 0.25) { [unowned self] in
             self.view.layoutIfNeeded()
+            if show {
+                self.contentContainerView.alpha = 0.3
+            } else {
+                self.contentContainerView.alpha = 1.0
+            }
         }
     }
     

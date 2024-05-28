@@ -80,7 +80,6 @@
 		F3A362142832CA9100690696 /* Resources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Resources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAF18328550F7100E61B8A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAF18728550F7900E61B8A /* Instructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Instructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3CAF18B28550F7D00E61B8A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAF18E28550F8100E61B8A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAF19128550F8500E61B8A /* SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CAF19428550F8D00E61B8A /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,7 +289,6 @@
 				F3CAF19428550F8D00E61B8A /* NVActivityIndicatorView.framework */,
 				F3CAF19128550F8500E61B8A /* SkeletonView.framework */,
 				F3CAF18E28550F8100E61B8A /* ViewAnimator.framework */,
-				F3CAF18B28550F7D00E61B8A /* SideMenu.framework */,
 				F3CAF18728550F7900E61B8A /* Instructions.framework */,
 				F3CAF18328550F7100E61B8A /* SDWebImage.framework */,
 				F3A362142832CA9100690696 /* Resources.framework */,
